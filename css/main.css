@@ -1,43 +1,81 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+	background-color: #F8F8F8;
+	text-align: center;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+#name {
+	font-family: Arial;
+	text-align: center;
+	vertical-align: middle; 
+
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+h2 {
+	font-family: Arial;
+	text-align: center;
+	margin: auto;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+#header {
+	margin: center;
+	position: static;
+	top: 0%;
+	height: 10%;
+	color: white;
+	background-color: #000000;
 }
-a:hover {
-    text-decoration: underline;
+
+ul{
+	list-style-type: none;
+	text-align: right;
+	vertical-align: middle; 
+    margin: auto;
+    padding: 10px;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+li {
+	font-size: 24px;
+	display: inline;
+    margin: auto;
+	font-family: sans-serif;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #FFFFFF;
+
 }
+
+#content {
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle; 
+	text-align: center;
+}
+
+#picture {
+	display: inline-block;
+	padding: 20px;
+}
+
+img {
+	height: 254px;
+	width: 254px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+
+#text {
+	display: inline-block;
+	padding: 20px;
+	float: right;
+	width: 762px;
+	margin-right: 10px;
+	text-align: left;
+	vertical-align: center;
+}
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+	font-family: Tahoma;
+	font-size: 1em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
