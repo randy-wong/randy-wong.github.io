@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
@@ -9,10 +9,10 @@ function App() {
     <Router>
       <header>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/experience">Experience</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/">	Home	|</Link>
+          <Link to="/experience">	Experience	|</Link>
+          <Link to="/projects">	Projects	|</Link>
+          <Link to="/contact">	Contact</Link>
         </nav>
       </header>
       <main>
