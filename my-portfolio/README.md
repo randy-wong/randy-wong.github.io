@@ -1,12 +1,39 @@
-# React + Vite
+# Randy Wong Portfolio App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This directory contains the active portfolio site built with React and Vite.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19
+- React Router with `HashRouter`
+- Vite
+- ESLint
 
-## Expanding the ESLint configuration
+## Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app is intended to present Randy Wong as a credible, technically strong engineer with a DevOps and systems-oriented background.
+
+## Scripts
+
+```bash
+npm run dev
+npm run lint
+npm run build
+npm run preview
+```
+
+## Notes
+
+- Routing uses `HashRouter` to stay compatible with GitHub Pages refresh behavior
+- The current design emphasizes a lightweight, static portfolio with no extra dependencies
+- Content should remain factual and should not invent job history, metrics, dates, or project claims
+
+## Publishing
+
+Build the app before deployment:
+
+```bash
+npm run build
+```
+
+The production output is written to `dist/`.

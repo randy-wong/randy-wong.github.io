@@ -2,34 +2,34 @@
 
 Use these prompts when working on this repository with an AI coding assistant.
 
-## Content Updates
+## Content Refinement
 
-- Update the Home page to better reflect my current role, strengths, and career direction. Keep the tone professional and concise.
-- Rewrite the Experience page bullets to focus on measurable impact, technical ownership, and leadership.
-- Improve the Projects page descriptions so each project clearly states the problem, stack, and outcome.
-- Refresh the Contact page copy to sound more direct and recruiter-friendly.
+- Rewrite the Experience page using my real resume bullets, dates, and technologies. Keep the tone direct and factual.
+- Expand the Projects page so each entry clearly explains the problem, stack, implementation choices, and outcome.
+- Tighten the homepage introduction so it matches the exact role types I want to target.
+- Add any missing recruiter-relevant links or profile details without inventing new claims.
 
 ## Design and UX
 
-- Redesign the portfolio to feel more distinctive and polished while keeping it fast and easy to maintain.
-- Improve the mobile layout across all pages without changing the overall content structure.
-- Tighten spacing, typography, and navigation so the site feels more intentional and less template-like.
-- Add subtle motion and page transitions that feel professional, not flashy.
+- Improve the current portfolio styling while preserving the existing visual direction, mobile responsiveness, and maintainability.
+- Add subtle page-load motion or section transitions only if they support the design and do not make the site feel heavy.
+- Review accessibility for heading structure, focus states, link clarity, and color contrast.
+- Evaluate whether the current navigation and page hierarchy feel strong enough for recruiters scanning quickly.
 
 ## React and Routing
 
-- Review the current React app structure and suggest a cleaner organization for routes, shared layout, and page components.
-- Refactor repeated page or layout patterns into reusable components where it improves maintainability.
+- Review the current React app structure and suggest whether shared page-shell components would improve maintainability.
+- Refactor repeated layout patterns into reusable components only where it reduces duplication without overengineering.
 - Audit the app for GitHub Pages compatibility and keep routing safe for deployment.
 
 ## Deployment
 
-- Explain the current deployment path for this repo and list the exact steps to publish the Vite app to GitHub Pages.
-- Review the repo for files that are no longer needed now that the Vite app is the primary site.
-- Add or update deployment automation for the `my-portfolio` app.
+- Explain the exact steps to publish the Vite app in `my-portfolio/` to GitHub Pages.
+- Review the repository for files that are no longer useful now that the Vite app is the only active site.
+- Add or update deployment automation if the repo does not already have a clean publishing path.
 
 ## Quality Checks
 
-- Review the portfolio app for content gaps, weak copy, and UX issues. Prioritize concrete fixes.
-- Run a code review on the current React app and identify bugs, regressions, or cleanup opportunities.
-- Suggest the highest-value improvements I can make next if I want this portfolio to look stronger to employers.
+- Review the portfolio app for content gaps, weak evidence, and presentational issues that would reduce recruiter confidence.
+- Run a code review on the React app and prioritize bugs, regressions, or cleanup opportunities.
+- Suggest the highest-value next changes if the goal is to make the portfolio stronger with minimal additional scope.

@@ -1,13 +1,21 @@
 # Randy Wong Portfolio
 
-This repository currently contains two site shapes:
+This repository hosts Randy Wong's personal portfolio site.
 
-- `my-portfolio/`: the active Vite + React application
-- repository root: a small GitHub Pages / Jekyll-style scaffold with `_config.yml`
+## Repository Layout
+
+- `my-portfolio/`: active React + Vite application
+- repository root: project documentation and support files
+
+## Current Site Direction
+
+- Present Randy as a DevOps-focused engineer with practical software and systems experience
+- Keep the site fast, maintainable, and GitHub Pages compatible
+- Use concise, factual copy without inflated claims
 
 ## Development
 
-Use the Vite app for local development:
+Run the app locally from `my-portfolio/`:
 
 ```bash
 cd my-portfolio
@@ -15,10 +23,29 @@ npm install
 npm run dev
 ```
 
+## Validation
+
+Use the existing project scripts before publishing changes:
+
+```bash
+cd my-portfolio
+npm run lint
+npm run build
+```
+
 ## Deployment
 
-Deploy the React app from `my-portfolio/`.
+The app is configured for GitHub Pages-safe routing with `HashRouter`.
 
-- The app now uses `HashRouter`, which avoids GitHub Pages route-refresh 404s.
-- Because this repository is a user site (`randy-wong.github.io`), the default Vite base path can remain `/`.
-- Build with `npm run build` inside `my-portfolio/` and publish the generated `dist/` output with your GitHub Pages workflow or hosting setup.
+- Because this repository is a user site (`randy-wong.github.io`), the default Vite base path can remain `/`
+- Build from `my-portfolio/` with `npm run build`
+- Publish the generated `my-portfolio/dist/` output with the repo's GitHub Pages workflow or equivalent hosting step
+
+## Documentation
+
+Supporting repository docs:
+
+- [AGENTS.md](AGENTS.md): working rules for AI coding agents
+- [prompts.md](prompts.md): task prompts for future iterations
+- [todo.md](todo.md): current improvement backlog
+- [CHANGELOG.md](CHANGELOG.md): notable repository updates
